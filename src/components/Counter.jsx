@@ -10,7 +10,7 @@ export default function Counter() {
   });
   return (
     <div className="w-full pb-7 px-16">
-      <div className="flex justify-center font-bold text-4xl m-auto space-x-32 text-center">
+      <div className="container m-auto grid grid-cols-4 gap-5 justify-between text-center items-center py-4">
         <div className="num" data-goal={850}>
           <CountUp end={850} enableScrollSpy />
         </div>

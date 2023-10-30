@@ -7,7 +7,7 @@ import p5 from "../images/p1 (5).jpg";
 import p6 from "../images/p1 (6).jpg";
 export default function WorkCombo01() {
   return (
-    <div className="grid grid-cols-3 gap-3">
+    <div className="container m-auto grid lg:grid-cols-3 md:grid-cols-2 gap-5 justify-between text-center items-center py-4">
       <div className="relative group">
         <img src={p1} alt="" className="w-full" />
         <div className="group bg-white opacity-0 group-hover:opacity-100 absolute top-1 bottom-1 left-1 right-1 p-1 flex justify-center items-center transition-all duration-700 ">
